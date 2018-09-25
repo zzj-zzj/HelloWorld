@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HelloWorld' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for HelloWorld
+  pod 'SDWebImage', '~> 5.0.0-beta3'
+  pod 'RongCloudIM', '~> 2.9.5'
+  pod 'MJExtension', '~> 3.0.15.1'
+
+  target 'HelloWorldTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HelloWorldUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
